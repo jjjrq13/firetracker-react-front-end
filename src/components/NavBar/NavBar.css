@@ -1,0 +1,23 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 20px;
+    background-color: #1c1c1c;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+}
+
+.navigation a {
+        color: #fff5e1;
+        text-decoration: none;
+        font-size: medium;
+    
+}
