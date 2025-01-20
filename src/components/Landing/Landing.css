@@ -1,0 +1,6 @@
+.landing-button {
+    margin: 5%;
+    display: flex;
+    justify-self: center;
+    gap: 2rem;
+}

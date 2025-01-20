@@ -1,4 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import { Link } from 'react-router-dom';
+import './Landing.css';
+
 
 const Landing = () => {
     return (
@@ -10,7 +13,7 @@ const Landing = () => {
                     effective journey toward mastering your expenses with ease.
                 </p>
             </div>
-            <div>
+            <div className='landing-button'>
                 <Link to='/signup'>
                     <button>Sign Up</button>
                 </Link>
